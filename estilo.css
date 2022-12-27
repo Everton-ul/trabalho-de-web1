@@ -1,0 +1,93 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(pizza.jpg);
+}
+.header-1{
+    font-size: 300%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    height: 150px;
+}
+.section-1{
+    font-size: 300%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 250px;
+}
+.home1{
+    font-size: 300%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 250px;
+}
+.sobre1{
+    font-size: 300%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+.conteudo{
+    font-size: 350%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
+    gap: 1rem;
+    padding-top: 5%;
+}
+.validação{
+    display: none;
+}
+.form1{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4F4F4F;
+    border: 2px solid blue;
+}
+.conteudo h1{
+    color: #8A2BE2;
+}
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 3rem;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #8A2BE2;
+    cursor: pointer;
+    transition: .3s;
+}
+button[type="submit"]:hover{
+    background-color: #BA55D3;
+}
+.home1{
+    color: black;
+    background-color: gray;
+    border-radius: 8px;
+}
+.home1 h3{
+    background-color: gray;
+    border-radius: 8px;
+}
+.sobre1{
+    color: black;
+    background-color: gray;
+    border-radius: 8px;
+}
